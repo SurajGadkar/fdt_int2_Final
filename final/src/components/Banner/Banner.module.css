@@ -1,0 +1,73 @@
+.banner {
+  height: 400px;
+  width: 400px;
+}
+
+.banner__background {
+  background-color: var(--color-banner-background);
+  border: 1px solid #111;
+  border-radius: 3rem;
+  display: inline-block;
+}
+
+.main__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 0;
+  height: 600px;
+  width: 100%;
+}
+
+.left__container {
+  width: 571px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.banner__backgroun {
+  width: 30%;
+}
+
+.fz_banner {
+  font-size: var(--font-size-banner);
+  font-weight: 200;
+}
+
+.bold {
+  font-weight: 550;
+}
+
+.fz_para {
+  font-weight: 100;
+  font-size: var(--font-size-para);
+  color: var(--color-para);
+}
+
+.input__bar {
+  width: 438px;
+  height: 74px;
+  border: 1px solid var(--color-background);
+  display: flex;
+  justify-content: space-between;
+  border-radius: 2rem;
+  align-items: center;
+  background-color: var(--color-background);
+  padding: 2px 8px;
+}
+
+.input {
+  background: var(--color-background);
+  border: none;
+  color: var(--color-text-primary);
+}
+
+.btn {
+  height: 62px;
+  width: 137px;
+  border: 1px solid var(--color-banner-background);
+  border-radius: 2rem;
+  background-color: var(--color-banner-background);
+}

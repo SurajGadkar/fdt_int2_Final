@@ -1,0 +1,15 @@
+.main__container {
+  border: 1px solid white;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.top__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+}

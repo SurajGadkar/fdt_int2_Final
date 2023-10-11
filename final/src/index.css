@@ -1,0 +1,61 @@
+:root {
+  /* Global variables to be defined here */
+  /* --color-white: #ffffff; */
+  --color-background: #1d1d1d;
+  --color-black: #111;
+  --color-text-primary: #fff;
+  --color-white: ;
+  --color-banner-background: #e3b748;
+  --font-size-banner: 66px;
+  --font-size-header: 54px;
+  --font-size-para: 16px;
+  --color-para: #999997;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-black);
+  margin: 40px 100px;
+  color: var(--color-text-primary);
+  font-family: "Inter", sans-serif;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}

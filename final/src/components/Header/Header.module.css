@@ -1,0 +1,32 @@
+.logo {
+  height: 35px;
+  width: 142px;
+  background: url("../../assets/logo.svg");
+  background-color: black;
+  display: inline-block;
+}
+
+body {
+  font-weight: 800;
+}
+
+.contact {
+  border: 2px solid white;
+  display: inline-block;
+  padding: 4px;
+}
+
+.links {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__container {
+  padding: 4px 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+}
